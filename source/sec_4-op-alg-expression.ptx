@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_op-alg-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Examples</title>
+  
+  <p>
+    <em>Algebraic expressions</<em> are formed by taking numbers and symbols which represent numbers, and combining them with the operations
+    of addition, subtraction, multiplication, division, and exponentiation by rational exponents. The symbols in algebraic 
+    expressions come in two types: symbols that represent fixed numbers are called <em>constants</em>>, while symbols that
+    represent non-fixed numbers are called <em>variables</em>>. In this section, we will focus on polynomials, which are a 
+    special type of algebraic expression.
+  </p>
+
+  <definition xml:id="def-polynom">
+    <statement>
+      <p>
+        For a nonnegative integer <m>n</m>, a <em>polynomial of degree</em> <m>n</m> in the variable <m>x</m>
+        is an algebraic epression of the form <me>
+          a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
+        </me>
+        where <m>a_n, a_{n-1}, \dots, a_2, a_1, a_0</m> are constants, and <m>a_n \neq 0</m>.
+      </p>
+    </statement>
+  </definition>
+ 
+  <example>
+    <statement>
+      <p>
+        The statement of the example, since it will have a solution.  What is the solution?
+      </p>
+    </statement>
+    <solution>
+      <p>
+        This is the solution.
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Here is another example, but without a solution
+  </p>
+
+  <example>
+    <p>
+      This is an example of an example without a solution (or hint or answer) so the paragraph doesn't need to be inside a statement tag.
+    </p>
+  </example>
+  
+  <p>
+    Although the next things are not examples, they give examples of blocks that are not examples.  First a theorem.
+  </p>
+
+  <theorem xml:id="thm_first-examples-theorem">
+    <title>Theorem Title</title>
+    <statement>
+      <p>
+        This is the statement of the theorem.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        And this is its proof.
+      </p>
+    </proof>
+  </theorem>
+  
+  <corollary xml:id="cor_first-examples-corollary">
+    <statement>
+      <p>
+        A corollary that doesn't need a proof.
+      </p>
+    </statement>
+  </corollary>
+
+  <p>
+    Perhaps at the end of the section, you want to add a note to the reader about how what you have fits into the larger scope of mathematics.
+  </p>
+
+  <remark xml:id="remark_first-examples-context">
+    <title>Larger Context</title>
+    <p>
+      Comment to the reader here.
+    </p>
+  </remark>
+
+  <p>
+    Of course, if you want more information, you might see <xref ref="thm_first-examples-theorem"/>.
+  </p>
+</section>
+

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec_op-alg-expressions" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Operations with Algebraic Expressions</title>
+  
+  <p>
+    <em>Algebraic expressions</em> are formed by taking numbers and symbols which represent numbers, and combining them with the operations
+    of addition, subtraction, multiplication, division, and exponentiation by rational exponents. The symbols in algebraic 
+    expressions come in two types: symbols that represent fixed numbers are called <em>constants</em>, while symbols that
+    represent non-fixed numbers are called <em>variables</em>. In this section, we will focus on polynomials, which are a 
+    special type of algebraic expression.
+  </p>
+
+  <definition xml:id="def-polynom">
+    <statement>
+      <p>
+        For a nonnegative integer <m>n</m>, a <em>polynomial of degree <m>n</m></em>  in the variable <m>x</m>
+        is an algebraic epression of the form <me>
+          a_n x^n + a_{n-1} x^{n-1} + \dots + a_2 x^2 + a_1 x + a_0
+        </me>
+        where <m>a_n, a_{n-1}, \dots, a_2, a_1, a_0</m> are constants, and <m>a_n \neq 0</m>.
+        <ul>
+          <li>
+            <p>
+              The <em>terms</em> of the polynomial are <m> a_n x^n, a_{n-1} x^{n-1}, \dots, a_1 x, a_0</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The <em>coefficients</em> of the polynomial are the real numbers <m> a_n, a_{n-1}, \dots, a_1, a_0</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The <em>leading term</em> of the polynomial is the term containing the highest power of <m>x</m>, namely <m> a_n x^n</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The <em>leading coefficient</em> of the polynomial is the coefficient of the leading term, namely <m> a_n </m>.
+            </p>
+          </li>
+          <li>
+            <p>
+              The term <m>a_0</m> is also called the <em>constant term</em> or <em>constant coefficient </em>.
+            </p>
+          </li>
+        </ul>
+      </p>
+    </statement>
+  </definition>
+ 
+  <example>
+    <statement>
+      <p> 
+        Consider the polynomial <m>4x^5 -9x^4 +3x^2 -\pi x +1</m>. Answer the following questions.
+        <ol cols="2">
+          <li>
+            <p>
+             The degree of the polynomial is <m>\dots</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+             The leading term is <m>\dots</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+             The leading coefficient is <m>\dots</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+             The coefficient of <m>x</m> is <m>\dots</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+             The coefficient of <m>x^2</m> is <m>\dots</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+             The coefficient of <m>x^3</m> is <m>\dots</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+             The <m>x^4</m> term is <m>\dots</m> 
+            </p>
+          </li>
+          <li>
+            <p>
+             The constant term is <m>\dots</m> 
+            </p>
+          </li>
+        </ol>
+
+        
+
+      </p>
+    </statement>
+    <solution>
+      <p>
+        <ol>
+          <li>
+            <p>
+             The polynomial has degree 5 becuase the highest power of <m>x</m> is 5. 
+            </p>
+          </li>
+          <li>
+            <p>
+             The leading term is the term containing the highest power which is <m>4x^5</m> in this case. 
+            </p>
+          </li>
+          <li>
+            <p>
+             The leading coefficient is 4. That is the coefficient of the leading term. 
+            </p>
+          </li>
+          <li>
+            <p>
+             The coefficient of <m>x</m> is <m>-\pi</m>. (Note that the negative sign is part of the coefficient too.)
+            </p>
+          </li>
+          <li>
+            <p>
+             The coefficient of <m>x^2</m> is <m>3</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+             The coefficient of <m>x^3</m> is <m>0</m>, because there is no term with power 3.
+            </p>
+          </li>
+          <li>
+            <p>
+             The <m>x^4</m> term is <m>-9x^4</m>.
+            </p>
+          </li>
+          <li>
+            <p>
+             The constant term is <m>1</m>. 
+            </p>
+          </li>
+        </ol>
+      </p>
+    </solution>
+  </example>
+
+  <p>
+    Here is another example, but without a solution
+  </p>
+
+  <example>
+    <p>
+     Consider the polynomial <m>4x^5 -9x^4 +3x^2 -\pi x +1</m>.  
+     break
+     It has degree  
+    </p>
+  </example>
+  
+  <p>
+    Although the next things are not examples, they give examples of blocks that are not examples.  First a theorem.
+  </p>
+
+  <theorem xml:id="thm_first-examples-theorem">
+    <title>Theorem Title</title>
+    <statement>
+      <p>
+        This is the statement of the theorem.
+      </p>
+    </statement>
+    <proof>
+      <p>
+        And this is its proof.
+      </p>
+    </proof>
+  </theorem>
+  
+  <corollary xml:id="cor_first-examples-corollary">
+    <statement>
+      <p>
+        A corollary that doesn't need a proof.
+      </p>
+    </statement>
+  </corollary>
+
+  <p>
+    Perhaps at the end of the section, you want to add a note to the reader about how what you have fits into the larger scope of mathematics.
+  </p>
+
+  <remark xml:id="remark_first-examples-context">
+    <title>Larger Context</title>
+    <p>
+      Comment to the reader here.
+    </p>
+  </remark>
+
+  <p>
+    Of course, if you want more information, you might see <xref ref="thm_first-examples-theorem"/>.
+  </p>
+</section>
+
