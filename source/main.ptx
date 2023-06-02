@@ -14,7 +14,7 @@
   <!-- to some short (non-spaced) description of your book         -->
   <book xml:id="pre-calc">
     <!-- The book needs a title and can have a subtitle  -->
-    <title>Pre-Calculus Review Package</title>
+    <title>Pre-Calculus TEST Review Package</title>
     <!-- <subtitle>Thompson Rivers University</subtitle> -->
 
     <!-- Now we include files containing each main devision.       -->
